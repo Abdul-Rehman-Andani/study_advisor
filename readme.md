@@ -33,9 +33,11 @@ cd server
 npm install
 
 # Start the server
-npm run dev
+npm run dev 
+```
 
-### 1. Backend Setup
+# 2. Frontend Setup
+```bash
 
 # Navigate to the mobile directory
 cd mobile
@@ -43,8 +45,6 @@ cd mobile
 # Install dependencies
 npm install
 
-# Create a .env file:
-# EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
-
 # Start the mobile app
 npx expo start
+```

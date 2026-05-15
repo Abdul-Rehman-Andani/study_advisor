@@ -1,5 +1,5 @@
-import { api } from "@/api/axios";
-import { useAuth } from "@clerk/expo";
+import api from "../../lib/axios";
+import { useAuth } from "@clerk/clerk-react"
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 export const useCreateEducation = () => {
@@ -9,7 +9,7 @@ export const useCreateEducation = () => {
   return useMutation({
     mutationFn: async (educationData: { university: string; program: string; semester: string }) => {
       const token = await getToken();
-      const { data } = await api.post("/api/education", educationData, {
+      const { data } = await api.post("/api/education/create", educationData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

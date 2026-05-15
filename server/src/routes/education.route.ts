@@ -14,10 +14,10 @@ router.get("/", requireAuth(), getEducation);
 
 // 2. CREATE: Initial setup (All fields required)
 // POST /api/education/create
-router.post("/create", requireAuth(), createEducation);
+router.post("/", requireAuth(), createEducation);
 
 // 3. UPDATE: Modify existing details (Partial updates allowed)
 // PATCH /api/education/update
-router.patch("/update", requireAuth(), updateEducation);
+router.patch("/", requireAuth(), updateEducation);
 
 export default router;

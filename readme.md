@@ -37,7 +37,7 @@ npm install
 npm run dev 
 ```
 
-### 2. Expo (mobile) Setup
+### 2. Expo (Mobile) Setup
 ```bash
 
 # Navigate to the mobile directory
@@ -50,7 +50,7 @@ npm install
 npx expo start
 ```
 
-### Client (Web) Setuo
+### 3. Client (Web) Setup
 ```bash
 
 # Navigate to the client directory

@@ -6,7 +6,7 @@ A high-performance, full-stack mobile application designed to centralize academi
 * **Frontend:** React Native (Expo), TypeScript, NativeWind (Tailwind CSS)
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
-* **State Management:** TanStack React Query
+* **Server State Management:** TanStack React Query
 * **Authentication:** Clerk (Google OAuth)
 
 ## 🚀 Key Features

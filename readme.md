@@ -3,7 +3,7 @@
 A high-performance, full-stack mobile application designed to centralize academic workflows, built with a focus on clean UI and efficient data management.
 
 ## 🛠️ Tech Stack
-* **Frontend:** React Native (Expo), TypeScript, NativeWind (Tailwind CSS)
+* **Frontend:** React Native (Expo), React.js ,TypeScript, NativeWind (Tailwind CSS)
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
 * **Server State Management:** TanStack React Query
@@ -21,6 +21,7 @@ A high-performance, full-stack mobile application designed to centralize academi
 
 * `/mobile` - Expo Router (file-based navigation)
 * `/server` - Node.js/Express API, MongoDB models, and middleware
+* `/client` - React Router
 
 ## ⚙️ Installation & Setup
 
@@ -36,7 +37,7 @@ npm install
 npm run dev 
 ```
 
-# 2. Frontend Setup
+### 2. Expo (mobile) Setup
 ```bash
 
 # Navigate to the mobile directory
@@ -47,4 +48,19 @@ npm install
 
 # Start the mobile app
 npx expo start
+```
+
+### Client (Web) Setuo
+```bash
+
+# Navigate to the client directory
+cd client
+
+# Install dependencies
+npm install
+
+# Start the react app
+npm run dev
+
+
 ```
